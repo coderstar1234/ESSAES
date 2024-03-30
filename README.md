@@ -12,6 +12,74 @@ We have developed a prototype system that utilizes IoT devices for attendance tr
 - **Testing:** Conduct thorough testing to ensure the effectiveness and usability of the system.
 - **Deployment:** Roll out the finalized version of the system across multiple educational institutions, continuously monitoring and improving its performance.
 
+System Architecture Diagram
+lua
+Copy code
+                                        +-----------------+
+                                        |    Web-based    |
+                                        |   Performance   |
+                                        |   Monitoring   |
+                                        |    Platform     |
+                                        +-----------------+
+                                              /      \
+                                             /        \
+                                            /          \
+                                           /            \
+               +--------------------------+              +-------------------------+
+               |       IoT Devices        |              |   Mobile Application    |
+               |   (Attendance Tracking)  |              | (Mentorship & Support)  |
+               +--------------------------+              +-------------------------+
+                                              \          /
+                                               \        /
+                                                \      /
+                                        +----------------+
+                                        |    MongoDB     |
+                                        |    Database    |
+                                        +----------------+
+This diagram illustrates the components of your system: IoT devices for attendance tracking, a web-based platform for performance monitoring, and a mobile application for mentorship and support. The system interacts with a MongoDB database to store data.
+
+Step 1: Install Flask and MongoDB
+Ensure you have Flask installed using the command:
+
+bash
+Copy code
+pip install Flask
+Install MongoDB as your database. Refer to the MongoDB documentation for installation instructions based on your operating system.
+
+Step 2: Project Structure
+Create a directory structure as follows:
+
+arduino
+Copy code
+project_folder/
+│
+├── app.py
+├── templates/
+│   ├── index.html
+│   ├── about.html
+│   ├── contact.html
+│   ├── chatbot.html
+│   ├── dashboard.html
+│   ├── layout.html
+│   └── technology_stack.html
+│
+├── static/
+│   ├── css/
+│   │   ├── style.css
+│   │   └── chatbot.css
+│   ├── js/
+│   │   ├── script.js
+│   │   └── chatbot.js
+│   └── images/
+│       ├── technology_stack_image.jpg
+│       └── website_image.jpg
+│
+├── chatbot/
+│   ├── intents.json
+│   ├── train_chatbot.py
+│   └── chatbot_model.pkl
+│
+└── LICENSE
 ## Use Case Diagram
 The system automatically tracks students' attendance and performance data, identifies at-risk students, provides personalized mentorship and support, and helps students improve their performance.
 
