@@ -2,10 +2,10 @@
 
 ## Objective
 The objective of this project is to create a system that merges IoT technology with personalized mentorship to improve student attendance and academic performance. The system aims to provide educational resources to support student learning and development while implementing strategies to effectively address challenges in attendance and academic performance.
-
+<hr>
 ## Approach
 We have developed a prototype system that utilizes IoT devices for attendance tracking, a web-based platform for performance monitoring, and a mobile application for mentorship and support services.
-
+<hr>
 ### Implementation:
 - **Prototype Development:** Develop a prototype using IoT devices for attendance tracking, a web-based platform for performance monitoring, and a mobile application for mentorship and support services.
 - **Refinement:** Gather feedback from stakeholders to refine the system and address any issues or concerns.
@@ -14,39 +14,38 @@ We have developed a prototype system that utilizes IoT devices for attendance tr
 - Step 1: Install Flask
   pip install Flask
 
-
+<hr>
 ## Use Case Diagram
 The system automatically tracks students' attendance and performance data, identifies at-risk students, provides personalized mentorship and support, and helps students improve their performance.
 
 ## Future Scope for Business
 We aim to integrate additional features such as career counseling, skill development programs, and alumni networking to provide holistic support to students. The system is scalable and can be expanded to cater to various educational institutions globally through partnerships and collaborations.
-
+<hr>
 ## Project Mission
 Our mission is to empower learners to master IoT technology through accessible and engaging educational resources.
-
+<hr>
 ## Features
 - Interactive IoT tutorials covering various concepts and applications.
 - Engaging quizzes to assess understanding and knowledge retention.
 - Video lectures by industry experts and educators.
 - Downloadable lecture notes and supplementary materials.
 - Hands-on projects and experiments to apply learning in real-world scenarios.
-
+<hr>
 ## Benefits
 - Self-paced learning for individuals interested in IoT technology.
 - Comprehensive resources suitable for beginners to advanced learners.
 - Practical projects to enhance skills and understanding.
 - Community forum for collaboration and discussion.
-
+<hr>
 ## Technology Stack
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Flask
 - **Database:** MongoDB
 - **IoT Integration:** Raspberry Pi, Arduino, Sensors
-
+<hr>
 ## Contributors
 - Himanshu Vashistha
-- Ritik Sharma
-
+<hr>
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
+<hr>
