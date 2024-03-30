@@ -12,37 +12,15 @@ We have developed a prototype system that utilizes IoT devices for attendance tr
 - **Testing:** Conduct thorough testing to ensure the effectiveness and usability of the system.
 - **Deployment:** Roll out the finalized version of the system across multiple educational institutions, continuously monitoring and improving its performance.
 
-System Architecture Diagram
-lua
-Copy code
-                                        +-----------------+
-                                        |    Web-based    |
-                                        |   Performance   |
-                                        |   Monitoring   |
-                                        |    Platform     |
-                                        +-----------------+
-                                              /      \
-                                             /        \
-                                            /          \
-                                           /            \
-               +--------------------------+              +-------------------------+
-               |       IoT Devices        |              |   Mobile Application    |
-               |   (Attendance Tracking)  |              | (Mentorship & Support)  |
-               +--------------------------+              +-------------------------+
-                                              \          /
-                                               \        /
-                                                \      /
-                                        +----------------+
-                                        |    MongoDB     |
-                                        |    Database    |
-                                        +----------------+
+# System Architecture Diagram
 This diagram illustrates the components of your system: IoT devices for attendance tracking, a web-based platform for performance monitoring, and a mobile application for mentorship and support. The system interacts with a MongoDB database to store data.
 
-Step 1: Install Flask and MongoDB
-Ensure you have Flask installed using the command:
+![System Architecture Diagram](system_architecture_diagram.png)
 
-bash
-Copy code
+## Installation
+### Step 1: Install Flask and MongoDB
+Ensure you have Flask installed using the command:
+```bash
 pip install Flask
 Install MongoDB as your database. Refer to the MongoDB documentation for installation instructions based on your operating system.
 
@@ -80,37 +58,38 @@ project_folder/
 │   └── chatbot_model.pkl
 │
 └── LICENSE
-## Use Case Diagram
+Use Case Diagram
 The system automatically tracks students' attendance and performance data, identifies at-risk students, provides personalized mentorship and support, and helps students improve their performance.
 
-## Future Scope for Business
+Future Scope for Business
 We aim to integrate additional features such as career counseling, skill development programs, and alumni networking to provide holistic support to students. The system is scalable and can be expanded to cater to various educational institutions globally through partnerships and collaborations.
 
-## Project Mission
+Project Mission
 Our mission is to empower learners to master IoT technology through accessible and engaging educational resources.
 
-## Features
-- Interactive IoT tutorials covering various concepts and applications.
-- Engaging quizzes to assess understanding and knowledge retention.
-- Video lectures by industry experts and educators.
-- Downloadable lecture notes and supplementary materials.
-- Hands-on projects and experiments to apply learning in real-world scenarios.
-- Chatbot for interactive assistance.
+Features
+Interactive IoT tutorials covering various concepts and applications.
+Engaging quizzes to assess understanding and knowledge retention.
+Video lectures by industry experts and educators.
+Downloadable lecture notes and supplementary materials.
+Hands-on projects and experiments to apply learning in real-world scenarios.
+Chatbot for interactive assistance.
+Benefits
+Self-paced learning for individuals interested in IoT technology.
+Comprehensive resources suitable for beginners to advanced learners.
+Practical projects to enhance skills and understanding.
+Community forum for collaboration and discussion.
+Technology Stack
+Frontend: HTML, CSS, JavaScript
+Backend: Flask
+Database: MongoDB
+IoT Integration: Raspberry Pi, Arduino, Sensors
+Contributors
+Himanshu Vashistha
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Benefits
-- Self-paced learning for individuals interested in IoT technology.
-- Comprehensive resources suitable for beginners to advanced learners.
-- Practical projects to enhance skills and understanding.
-- Community forum for collaboration and discussion.
+csharp
+Copy code
 
-## Technology Stack
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Flask
-- **Database:** MongoDB
-- **IoT Integration:** Raspberry Pi, Arduino, Sensors
-
-## Contributors
-- Himanshu Vashistha
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+In this format, your README file will be displayed nicely on GitHub with proper formatting and images.
