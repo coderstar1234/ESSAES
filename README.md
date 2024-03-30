@@ -11,6 +11,9 @@ We have developed a prototype system that utilizes IoT devices for attendance tr
 - **Refinement:** Gather feedback from stakeholders to refine the system and address any issues or concerns.
 - **Testing:** Conduct thorough testing to ensure the effectiveness and usability of the system.
 - **Deployment:** Roll out the finalized version of the system across multiple educational institutions, continuously monitoring and improving its performance.
+- Step 1: Install Flask
+  pip install Flask
+
 
 ## Use Case Diagram
 The system automatically tracks students' attendance and performance data, identifies at-risk students, provides personalized mentorship and support, and helps students improve their performance.
