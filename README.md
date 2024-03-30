@@ -27,8 +27,6 @@ Install MongoDB as your database. Refer to the MongoDB documentation for install
 Step 2: Project Structure
 Create a directory structure as follows:
 
-arduino
-Copy code
 project_folder/
 │
 ├── app.py
@@ -93,6 +91,3 @@ Our mission is to empower learners to master IoT technology through accessible a
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
- this is made a code.
-
-
