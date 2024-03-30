@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	 <title>Home</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/topic.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+	 <div class="logo">
+            <img src="/static/images/ESSAES.png" alt="Logo">
+        </div> <!-- Logo image -->
+			<!-- Navigation Bar -->
+<div class="navbar">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/buzz">Buzz</a></li>
+        <li><a href="/3DModel">3D Model</a></li>
+        <li><a href="/ResolveError">Resolve Error</a></li>
+        <li><a href="/topic">Topic</a></li>
+    </ul>
+</div>
+
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="/static/images/search.jpg" alt="search" onclick=slide()></div>
+			<img src="/static/images/icon.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		
+		</div>
+	</header>
+
+ 
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+    <div class="diffSection" id="services_section">
+        <center><h1 style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Topic</h1></center>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <a href="subjects/computer_courses.html"><div class="s-card"><p>Internet of Things (IoT) Security</p></div></a>
+        <a href="subjects/jee.html"><div class="s-card"><p>IoT Protocols and Standards</p></div></a>
+        <a href="#"><div class="s-card"><p>IoT Applications in Healthcare</p></div></a>
+        <a href="subjects/jee.html#sample_papers"><div class="s-card"><p>Smart Cities and IoT</p></div></a><br>
+        <a href="#"><div class="s-card"><p>IoT Data Analytics</p></div></a>
+        <a href="#contactus_section"><div class="s-card"><p>IoT Platforms and Infrastructure & Edge Computing in IoT</p></div></a>
+        <a href="subjects/quiz.html"><div class="s-card"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
+        <a href="#contactus_section"><div class="s-card"><p>24x7 Online Support</p></div></a>
+    </div>
+</div>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="/static/images/ESSAES.png" style="width: 200px;">
+				<div class="logo"></div>
+				<br><br>
+				<p class="rights-text">Copyright © 2021 Created By Himanshu Vashistha All Rights Reserved.</p>
+				<br><p>ABES institution of technology</p><br>
+				<p> 9870790356<br>himanshuvashistha552@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

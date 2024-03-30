@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	 <title>Home</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/contact.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+	 <div class="logo">
+            <img src="/static/images/ESSAES.png" alt="Logo">
+        </div> <!-- Logo image -->
+			<!-- Navigation Bar -->
+<div class="navbar">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/buzz">Buzz</a></li>
+        <li><a href="/3DModel">3D Model</a></li>
+        <li><a href="/ResolveError">Resolve Error</a></li>
+        <li><a href="/topic">Topic</a></li>
+    </ul>
+</div>
+
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="/static/images/search.jpg" alt="search" onclick=slide()></div>
+			<img src="/static/images/icon.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		
+		</div>
+		</div>
+	</header>
+
+  
+
+<!-- TEAM -->
+	 <div class="diffSection" id="team_section">
+    <center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
+    <div class="totalcard">
+        <div class="card">
+            <center><img src="/static/images/him.jpg" alt="Himanshu Vashistha"></center>
+            <center>
+                <div class="card-title">Himanshu Vashistha</div>
+                <div id="detail">
+                    <p>“You can teach a student a lesson for a day; but if you can teach him to learn by creating curiosity, he will continue the learning process as long as he lives.“</p>
+                    <div class="duty"></div>
+                    <a href="https://www.linkedin.com/in/himanshu-vashistha-b48a762a7/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+                </div>
+            </center>
+        </div>
+        <div class="card">
+            <center><img src="/static/images/him.jpg" alt="Himanshu Vashistha"></center>
+            <center>
+                <div class="card-title">Himanshu Vashistha</div>
+                <div id="detail">
+                    <p>“Real education should consist of drawing the goodness and the best out of our own students. What better books can there be than the book of humanity.“</p>
+                    <div class="duty"></div>
+                    <a href="https://www.linkedin.com/in/himanshu-vashistha-b48a762a7/" target="_blank"><button class="btn-akhil">Follow +</button></a>
+                </div>
+            </center>
+        </div>
+    </div>
+</div>
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="/static/images/ESSAES.png" style="width: 200px;">
+				<div class="logo"></div>
+				<br><br>
+				<p class="rights-text">Copyright © 2021 Created By Himanshu Vashistha All Rights Reserved.</p>
+				<br><p>ABES institution of technology</p><br>
+				<p> 9870790356<br>himanshuvashistha552@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

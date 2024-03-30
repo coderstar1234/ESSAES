@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+    <title>Home</title>
+    <meta name="desciption" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/static/ResolveError.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+<body>
+<!-- Navigation Bar -->
+<header id="header">
+    <nav>
+        <div class="logo">
+            <img src="/static/images/ESSAES.png" alt="Logo">
+        </div> <!-- Logo image -->
+        <!-- Navigation Bar -->
+        <div class="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/buzz">Buzz</a></li>
+                <li><a href="/3DModel">3D Model</a></li>
+                <li><a href="/ResolveError">Resolve Error</a></li>
+                <li><a href="/topic">Topic</a></li>
+            </ul>
+        </div>
+
+        <div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="/static/images/search.jpg" alt="search" onclick=slide()></div>
+        <img src="/static/images/icon.png" class="menu" onclick="sideMenu(0)" alt="menu">
+    </nav>
+</header>
+<!-- Center the button -->
+<div class="center">
+    <!-- Button to Open Chatbot -->
+    <button class="chatbot-button" onclick="openChatbot()">Open Chatbot</button>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="left-col">
+            <img src="/static/images/ESSAES.png" style="width: 200px;">
+            <div class="logo"></div>
+            <br><br>
+            <p class="rights-text">Copyright © 2021 Created By Himanshu Vashistha All Rights Reserved.</p>
+            <br><p>ABES institution of technology</p><br>
+            <p> 9870790356<br>himanshuvashistha552@gmail.com</p>
+        </div>
+        <div class="right-col">
+            <h1 style="color: #fff">Our Newsletter</h1>
+            <div class="border"></div><br>
+            <p>Enter Your Email to get our News and updates.</p>
+            <form class="newsletter-form">
+                <input class="txtb" type="email" placeholder="Enter Your Email">
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</footer>
+
+<!-- Script to Open Chatbot URL -->
+<script>
+    function openChatbot() {
+        window.open('https://mediafiles.botpress.cloud/80151df9-b78b-4344-b866-c1f03c3e1d9b/webchat/bot.html', '_blank');
+    }
+</script>
+</body>
+</html>

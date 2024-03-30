@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	 <title>Home</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/signin.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+	 <div class="logo">
+            <img src="/static/images/ESSAES.png" alt="Logo">
+        </div> <!-- Logo image -->
+			<!-- Navigation Bar -->
+<div class="navbar">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/buzz">Buzz</a></li>
+        <li><a href="/3DModel">3D Model</a></li>
+        <li><a href="/ResolveError">Resolve Error</a></li>
+        <li><a href="/topic">Topic</a></li>
+    </ul>
+</div>
+
+			
+			<a class="get-started" href="/signup">Signup</a>
+			<img src="/static/images/icon.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		
+		</div>
+	</header>
+
+<!-- Sign-in Box -->
+    <div class="signin-container">
+        <h2>Sign In</h2>
+        <form method="POST" action="/signin">
+ <!-- Modify action attribute to submit form data to the /signin route -->
+            <div class="form-group">
+                <label for="email">Email:</label> <!-- Changed "Username" to "Email" assuming users sign in with their email -->
+                <input type="text" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sign In">
+            </div>
+        </form>
+    </div>
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="/static/images/ESSAES.png" style="width: 200px;">
+				<div class="logo"></div>
+				<br><br>
+				<p class="rights-text">Copyright © 2021 Created By Himanshu Vashistha All Rights Reserved.</p>
+				<br><p>ABES institution of technology</p><br>
+				<p> 9870790356<br>himanshuvashistha552@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
