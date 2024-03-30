@@ -1,5 +1,11 @@
-# Student Attendance and Performance Improvement System (ESSAES)
-
+<div align="center">
+<h1 align="center" >  Student Attendance and Performance Improvement System (ESSAES) </h1>
+  <p align="center">
+    
+<img  width="300" height="300" src="https://i.ibb.co/qMWNS1w/ESSAES.png" >
+</p>
+  </div>
+  
 ## Objective
 The objective of this project is to create a system that merges IoT technology with personalized mentorship to improve student attendance and academic performance. The system aims to provide educational resources to support student learning and development while implementing strategies to effectively address challenges in attendance and academic performance.
 
@@ -36,10 +42,10 @@ Our mission is to empower learners to master IoT technology through accessible a
 - Community forum for collaboration and discussion.
 
 ## Technology Stack
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Flask
-- **Database:** MongoDB
-- **IoT Integration:** Raspberry Pi, Arduino, Sensors
+- **Frontend:** HTML, CSS, JavaScript   <img  width="100" height="100" src="https://th.bing.com/th/id/OIP.m8nFrqg3AiItcY0UCSYZSgHaE8?rs=1&pid=ImgDetMain" >
+- **Backend:** Flask  <img  width="100" height="100" src="https://www.pngkey.com/png/full/98-985032_flask-logo-flask-python-icon.png" >
+- **Database:** MongoDB <img  width="300" height="300" src="https://i.ibb.co/qMWNS1w/ESSAES.png" >
+- **IoT Integration:** Raspberry Pi, Arduino, Sensors <img  width="300" height="300" src="https://i.ibb.co/qMWNS1w/ESSAES.png" >
 
 ## Contributors
 - Himanshu Vashistha
